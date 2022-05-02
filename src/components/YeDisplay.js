@@ -1,4 +1,3 @@
-import SafeVideo from './SafeVideo';
 import SafeImage from './SafeImage';
 
 const ye = ['SunYe','MonYe','TuesYe','WednesYe','ThursYe','FriYe','SaturYe']
@@ -36,9 +35,9 @@ const YeDisplay = ({date}) => {
 
     return (
         <div>
-            <SafeVideo 
+            <video 
                 id='video' 
-                fileName={`video/${yeOfWeek}_Final${fileExt}`}
+                src={`https://d2desgpiu5lrdz.cloudfront.net/video/${yeOfWeek}_Final${fileExt}`}
                 onClick={muteAudio} 
                 muted loop autoPlay />
             <SafeImage
