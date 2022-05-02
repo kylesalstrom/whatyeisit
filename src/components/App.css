@@ -50,8 +50,14 @@ ul.share-buttons li{
 	}
 	img.bigImg{
 		margin-top: -10vh;
+		margin-bottom: -2vh;
+	}
+	img.medImg{
+		height:		3.8vh;
+		margin-bottom: 	-8px;
 	}
 	img.smlImg{
+		height:		2.5vh;
 		margin-left: 	-2px;
 		margin-right: 	-2px;
 	}
