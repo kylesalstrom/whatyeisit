@@ -47,7 +47,7 @@ ul.share-buttons li{
 	video {
 		width:			100%;
 		padding-top:	1px;
-		margin-bottom: -3.7vh;
+		margin-bottom: -4vh;
 	}
 	img.bigImg{
 		height:		15vh;
@@ -56,7 +56,7 @@ ul.share-buttons li{
 	}
 	img.medImg{
 		height:		2.8vh;
-		margin-bottom: 	-8px;
+		margin-bottom: 	-18px;
 	}
 	img.smlImg{
 		height:		2.5vh;
