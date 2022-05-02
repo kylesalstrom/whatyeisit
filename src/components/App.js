@@ -1,6 +1,6 @@
 import YeDisplay from './YeDisplay';
 import DateDisplay from './DateDisplay';
-import SocialDisplay from './SocialDisplay';
+// import SocialDisplay from './SocialDisplay';
 import AuthorDisplay from './AuthorDisplay';
 
 import './App.css';
