@@ -20,8 +20,8 @@ div{
 img.bigImg{
 	height:		18vh;
 	padding-top: 3vh;
-	padding-left: 	1vw;
-	padding-right: 	1vw;
+	padding-left: 	2vh;
+	padding-right: 	2vh;
 }
 img.medImg{
 	height:		6vh;
@@ -40,27 +40,4 @@ ul.share-buttons{
 }
 ul.share-buttons li{
 	display: 	inline;
-}
-@media (max-width: 600px) {
-	video {
-		width:			100%;
-		padding-top:	1px;
-	}
-	img.bigImg{
-		height:			40px;
-		padding-left: 	1px;
-		padding-right: 	1px;
-	}
-	img.medImg{
-		height:			30px;
-	}
-	img.smlImg{
-		height:			10px;
-	}
-	img.tnyImg{
-		height:			5px;
-	}
-	img.smlTD{
-		padding:		0px;
-	}
 }
