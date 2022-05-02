@@ -1,0 +1,66 @@
+/*Kyle Salstrom - 2015*/
+/*kylesalstrom@gmail.com*/
+
+body {
+	background-color: black;
+}
+video {
+	margin-left: 	auto;
+	margin-right: 	auto;
+	display: 	block;
+	height:		60vh;
+	padding-top:	5vh;
+	padding-bottom:	1vh;
+}
+div{
+	text-align:	center;
+	margin-left: 	auto;
+	margin-right: 	auto;
+}
+img.bigImg{
+	height:		18vh;
+	padding-top: 5vh;
+	padding-left: 	.5vw;
+	padding-right: 	.5vw;
+}
+img.medImg{
+	height:		6vh;
+}
+img.smlImg{
+	height:		3vh;
+	margin-left: 	-3px;
+	margin-right: 	-3px;
+}
+img.tnyImg{
+	height:		2vh;
+}
+ul.share-buttons{
+	list-style: 	none;
+	padding: 	0;
+}
+ul.share-buttons li{
+	display: 	inline;
+}
+@media (max-width: 600px) {
+	video {
+		width:			100%;
+		padding-top:	1px;
+	}
+	img.bigImg{
+		height:			40px;
+		padding-left: 	1px;
+		padding-right: 	1px;
+	}
+	img.medImg{
+		height:			30px;
+	}
+	img.smlImg{
+		height:			10px;
+	}
+	img.tnyImg{
+		height:			5px;
+	}
+	img.smlTD{
+		padding:		0px;
+	}
+}

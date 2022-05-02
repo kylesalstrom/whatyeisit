@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# What Ye Is It?
+[![WhatYeIsIt?](https://mtv.mtvnimages.com/uri/mgid:file:http:shared:mtv.com/news/wp-content/uploads/2015/05/btt7lxawbdaiqakrt6n7-1431692916.gif?quality=.8&height=357&width=360)](https://www.whatyeisit.com)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+What Ye Is It? is a Cloud-Hosted, Mobile-Ready, Reactjs-powered, Digital Calendar
 
-## Available Scripts
+- Music By Kanye West
+- Artwork By Nick Stokes and Eric Swanson
+- Web Dev By Kyle Sasltrom
 
-In the project directory, you can run:
+#### Tech
 
-### `npm start`
+What Ye Is It? uses a number of tools to work properly:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [React.js] - declarative, efficient, and flexible JavaScript library for building user interfaces
+- [Visual Studio Code] - streamlined code editor with support for development operations like debugging, task running, and version control
+- [Dillinger.io] - web-based markdown creation tool
+- [AWS Amplify] - build extensible, full-stack web and mobile apps faster. easy to start, easy to scale
+- [Amazon CloudFront] - securely deliver content with low latency and high transfer speeds
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   [React.js]: <https://reactjs.org/>
+   [Visual Studio Code]: <https://code.visualstudio.com/>
+   [Dillinger.io]: <https://github.com/joemccann/dillinger>
+   [AWS Amplify]: <https://aws.amazon.com/amplify/>
+   [Amazon CloudFront]: <https://aws.amazon.com/cloudfront/>
