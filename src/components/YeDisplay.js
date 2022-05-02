@@ -1,4 +1,3 @@
-import SafeImage from './SafeImage';
 import { useEffect, useState } from 'react'
 
 
@@ -43,10 +42,9 @@ const YeDisplay = ({date}) => {
                 muted={isMuted} 
                 loop 
                 autoPlay/>
-            <SafeImage
+            <img
                 onClick={handleClick}
-                id='imgClickFor' 
-                fileName={`image/otherPics/${isMuted ? '' : 'dont'}clickVideo.png`} 
+                src={`https://d2desgpiu5lrdz.cloudfront.net/image/otherPics/${isMuted ? '' : 'dont'}clickVideo.png`} 
                 className='tnyImg' 
                 alt='click to hear me'/>
         </div>
