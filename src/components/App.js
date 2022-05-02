@@ -6,7 +6,7 @@ import AuthorDisplay from './AuthorDisplay';
 import './App.css';
 
 export default function App() {
-  const today = new Date();
+  const today = new Date('July 31, 1987');
   return (
     <div className="App">
       <YeDisplay date= {today}/>
