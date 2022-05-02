@@ -9,7 +9,6 @@ const YeDisplay = ({date}) => {
     return (
         <div>
             <video 
-                id="yeVideo"
                 onClick={handleClick}
                 src={`https://d2desgpiu5lrdz.cloudfront.net/video/${yeOfWeek}_Final${fileExt}`}
                 muted={isMuted} 
