@@ -18,12 +18,13 @@ const YeDisplay = ({date}) => {
     return (
         <div>
             <video 
+                onClick={handleClick}
                 src={`https://d2desgpiu5lrdz.cloudfront.net/video/${yeOfWeek}_Final${fileExt}`}
-                onClick={handleClick} 
                 muted={isMuted} 
                 loop 
                 autoPlay />
             <SafeImage
+                onClick={handleClick}
                 id='imgClickFor' 
                 fileName={`image/otherPics/${isMuted ? '' : 'dont'}clickVideo.png`} 
                 className='tnyImg' 
