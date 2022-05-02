@@ -9,7 +9,7 @@ video {
 	margin-right: 	auto;
 	display: 	block;
 	height:		60vh;
-	padding-top:	5vh;
+	padding-top:	3vh;
 	padding-bottom:	1vh;
 }
 div{
@@ -22,9 +22,10 @@ img.bigImg{
 	padding-top: 5vh;
 	padding-left: 	2vh;
 	padding-right: 	2vh;
+	margin-top: -3vh;
 }
 img.medImg{
-	height:		6vh;
+	height:		4.4vh;
 	margin-bottom: 	-8px;
 }
 img.smlImg{
