@@ -1,7 +1,7 @@
 import SafeImage from './SafeImage';
 import { useState } from 'react'
 
-const ye = ['SunYe','MonYe','TuesYe','WednesYe','ThursYe','FriYe','SaturYe']
+
 const YeDisplay = ({date}) => {
     const [isMuted, setIsMuted] = useState(true);
 
@@ -33,6 +33,7 @@ const YeDisplay = ({date}) => {
     );
 }
 
+const ye = ['SunYe','MonYe','TuesYe','WednesYe','ThursYe','FriYe','SaturYe']
 const detectIdealFileType = () => {
     const videoElement = document.createElement('video');
     
