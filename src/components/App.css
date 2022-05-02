@@ -45,13 +45,9 @@ ul.share-buttons li{
 @media (max-width: 600px) {
 	video {
 		width:			100%;
-		padding-top:	0px;
-	}
-	img.medImg{
-		height:			20px;
+		padding-top:	1px;
 	}
 	img.smlImg{
-		height:			20px;
 		margin-left: 	-2px;
 		margin-right: 	-2px;
 	}
