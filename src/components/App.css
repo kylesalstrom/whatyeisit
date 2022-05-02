@@ -47,6 +47,9 @@ ul.share-buttons li{
 		width:			100%;
 		padding-top:	1px;
 	}
+	img.bigImg{
+		margin-top: -10vh;
+	}
 	img.smlImg{
 		margin-left: 	-2px;
 		margin-right: 	-2px;
