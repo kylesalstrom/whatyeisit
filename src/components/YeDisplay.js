@@ -1,19 +1,10 @@
-import SafeImage from './SafeImage';
 import { useState } from 'react'
 
 
 const YeDisplay = ({date}) => {
+    const [yeOfWeek, fileExt] = initialize(date);
     const [isMuted, setIsMuted] = useState(true);
-
-    const yeOfWeek = ye[(date || new Date()).getDay()];
-    const fileExt = detectIdealFileType();
-
-    const handleClick = () => {
-        var isAndroid = navigator.userAgent.toLowerCase().indexOf("android") > -1;
-        if(!isAndroid) {
-            setIsMuted(!isMuted);
-        }
-    }
+    const handleClick = () => setIsMuted(!isMuted);
 
     return (
         <div>
@@ -22,35 +13,39 @@ const YeDisplay = ({date}) => {
                 src={`https://d2desgpiu5lrdz.cloudfront.net/video/${yeOfWeek}_Final${fileExt}`}
                 muted={isMuted} 
                 loop 
-                autoPlay />
-            <SafeImage
+                autoPlay
+                playsInline/>
+            <img
                 onClick={handleClick}
-                id='imgClickFor' 
-                fileName={`image/otherPics/${isMuted ? '' : 'dont'}clickVideo.png`} 
+                src={`https://d2desgpiu5lrdz.cloudfront.net/image/otherPics/${isMuted ? '' : 'dont'}clickVideo.png`} 
                 className='tnyImg' 
                 alt='click to hear me'/>
         </div>
     );
 }
 
-const ye = ['SunYe','MonYe','TuesYe','WednesYe','ThursYe','FriYe','SaturYe']
-const detectIdealFileType = () => {
+const initialize = (date) => {
+    //what ye is it?
+    const yeOfWeek = ['SunYe','MonYe','TuesYe','WednesYe','ThursYe','FriYe','SaturYe'][(date || new Date()).getDay()];
+
+    //Which file works best?
+    let fileExt = '.mp4';
     const videoElement = document.createElement('video');
-    
     if(videoElement.canPlayType('video/mp4;codecs="avc1.42E01E, mp4a.40.2"') === "probably"){
-        return '.mp4';
+        fileExt = '.mp4';
     }else if(videoElement.canPlayType('video/webm; codecs="vp8, vorbis"') === "probably"){
-        return '.webm';
+        fileExt = '.webm';
     }else if(videoElement.canPlayType('video/ogg;codecs="theora, vorbis"') === "probably"){
-        return '.ogg';
+        fileExt = '.ogg';
     }else if(videoElement.canPlayType('video/mp4;codecs="avc1.42E01E, mp4a.40.2"') === "maybe"){
-        return '.mp4';
+        fileExt = '.mp4';
     }else if(videoElement.canPlayType('video/webm; codecs="vp8, vorbis"') === "maybe"){
-        return '.webm';
+        fileExt = '.webm';
     }else if(videoElement.canPlayType('video/ogg;codecs="theora, vorbis"') === "maybe"){
-        return '.ogg';
+        fileExt = '.ogg';
     }
-    return '.mp4'
+
+    return [yeOfWeek, fileExt];
 }
 
 export default YeDisplay;

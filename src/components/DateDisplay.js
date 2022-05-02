@@ -1,18 +1,16 @@
-import SafeImage from './SafeImage';
-
 const DateDisplay = ({date}) => {
   const monthNumber = (date || new Date()).getMonth();
   const dateNumber = (date || new Date()).getDate();
   return (
     <div>
-      <SafeImage
+      <img
         id='month' 
-        fileName={`image/months/${monthNumber}.png`} 
+        src={`https://d2desgpiu5lrdz.cloudfront.net/image/months/${monthNumber}.png`} 
         className='bigImg' 
         alt='month graphic'/>
-      <SafeImage
+      <img
         id='day' 
-        fileName={`image/numbers/${dateNumber}.png`} 
+        src={`https://d2desgpiu5lrdz.cloudfront.net/image/numbers/${dateNumber}.png`} 
         className='bigImg' 
         alt='date graphic'/>
     </div>
