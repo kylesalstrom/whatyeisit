@@ -41,3 +41,26 @@ ul.share-buttons{
 ul.share-buttons li{
 	display: 	inline;
 }
+@media (max-width: 600px) {
+	video {
+		width:			99%;
+		padding-top:	1px;
+	}
+	img.bigImg{
+		height:			30px;
+		padding-left: 	1px;
+		padding-right: 	1px;
+	}
+	img.medImg{
+		height:			20px;
+	}
+	img.smlImg{
+		height:			20px;
+	}
+	img.tnyImg{
+		height:			10px;
+	}
+	img.smlTD{
+		padding:		0px;
+	}
+}
